@@ -11,7 +11,7 @@ function App() {
   return (
     <BudgetProvider>
       <div>
-        <h1 style={{textAlign:"center", textDecoration:"underline"}}>My Budget Planner</h1>
+        <h1 style={{textAlign:"center"}}>📝My Budget Planner</h1>
       </div>
       <BudgetSummary />
       <ExpenseList />

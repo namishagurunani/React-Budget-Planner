@@ -43,7 +43,7 @@ const BudgetForm = () => {
       <div className="container2">
         <h4> Budget: Rs.2000</h4>
         <h4>Remaining Budget: Rs.{remainingBudget}</h4>
-        <h4>Total Spent So Far: Rs.{spentSoFar}</h4>
+        <h4>Spent So Far:{spentSoFar}</h4>
       </div>
       <h3>Expenses</h3>
       {expenses.length === 0 ? (
